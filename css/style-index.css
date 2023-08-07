@@ -308,6 +308,18 @@ footer .datos-admin{
 
 }
 
+@media (max-width: 437px){
+    header .calls-header nav a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 387px){
+    header .calls-header nav a{
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 1220px){
     main .cards{
         display: flex;
