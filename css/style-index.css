@@ -1,0 +1,379 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(34, 40, 49);
+
+}
+
+/* -------------------------------------------- */
+
+header{
+    background-color: rgb(57, 62, 70);
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    flex-wrap: wrap;
+
+}
+header .logo img{
+    width: 90px;
+}
+
+header .titulo h1{
+    color: rgb(0, 109, 9);
+    font-family: 'Dancing Script', cursive;
+    font-size: 44px;
+    text-shadow: 2px 2px 4px black;
+
+}
+header .calls-header nav a{
+    margin: 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+
+}
+header .calls-header nav a:hover{
+
+    color: rgba(0, 255, 149);
+    text-shadow: 2px 2px 4px black;
+
+}
+
+/* -------------------------------------------- */
+
+
+main .cards{
+    background-image: url(../media/0014456529\ \(3\).jpg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:inherit;
+
+
+}
+main .cards .valores{
+    width: 400px;
+    background-color: rgba(0, 255, 149, 0.8);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 45px;
+    
+
+}
+main .cards .call-central{
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 20px;
+    margin: auto;
+    padding: 5px;
+    font-size: 33px;
+    box-shadow: 0px 0px 48px;
+    transition: box-shadow 0.5s, filter 0.5s;
+    animation: hover-animation 2s infinite;
+
+}
+main .cards .call-central a{
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+main .cards .call-central a:hover{
+    color: rgb(76, 151, 0);
+    transition: 0.5s;
+
+}
+main .cards .novedades{
+    width: 400px;
+    background-color: rgba(0, 255, 149, 0.8);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 45px;
+
+}
+
+/* -------------------------------------------- */
+
+main .calls .call-contacto{
+    background-color: #000000;
+
+}
+
+/* -------------------------------------------- */
+
+main .container{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f2f2f2;
+    padding: 22px;
+    border-radius: 22px;
+
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "carrusel-item proposito"
+    ;
+    align-items: center;
+    text-align: center;
+
+
+}
+main .container .carrusel-item{
+
+    grid-area: carrusel-item;
+
+}
+main .container .proposito{
+
+    grid-area: proposito;
+
+}
+main .container img{
+
+    height: 800px;
+    width: 800px;
+    border-radius: 22px;
+
+}
+main .container .proposito{
+
+    font-size: larger;
+
+}
+main .container .proposito h2{
+
+    text-shadow: 1px 1px 5px rgb(104, 104, 104);
+
+}
+
+/* -------------------------------------------- */
+main aside .mision{
+    color: white;
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+main aside .mision h2{
+    text-align: center;
+}
+main aside .mision p{
+    text-align: center;
+
+}
+
+main .place{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+main .place .card{
+    margin: 100px;
+    width: 600px;
+
+}
+
+main .place .card img{
+    height: 420px;
+
+}
+
+
+/* -------------------------------------------- */
+
+footer{
+    background-color: rgb(34, 40, 49);
+    margin-top: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 45px #f2f2f2;
+    margin: 20px;
+    border-radius: 22px;
+    flex-wrap: wrap;
+
+}
+
+footer .logo{
+    margin: 5px;
+    
+}
+
+footer .logo h3{
+    color: #f2f2f2;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+
+}
+
+footer .logo p{
+    color: #f2f2f2;
+
+}
+
+footer .informacion{
+    color: #f2f2f2;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+footer .informacion .botones{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .informacion p{
+    font-size: larger;
+
+}
+
+.informacion .boton-fin{
+    color: white;
+    border-radius: 10px;
+    margin: 1px;
+    text-decoration: none;
+
+}
+.informacion .boton-fin:hover{
+    text-decoration: none;
+    color: greenyellow;
+
+}
+footer .datos-admin{
+    color: #f2f2f2;
+
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+@keyframes hover-animation {
+    
+    0%{
+        box-shadow: 0px 0px 47px #000000 ;
+        filter: blur(0px);
+    }
+    50%{
+        box-shadow: 0px 0px 47px greenyellow ;
+        filter: blur(0px);
+    }
+    100%{
+        box-shadow: 0px 0px 47px #000000 ;
+        filter: blur(0px);
+
+    }
+
+}
+
+@media (max-width: 404px){
+
+    header .titulo h1{
+        font-size: 35px;
+
+    }
+
+}
+
+@media (max-width: 1220px){
+    main .cards{
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 430px){
+
+    main .cards .valores{
+        width: 80%;
+    }
+    main .cards .call-central{
+        width: 80%;
+        text-align: center;
+    }
+    main .cards .novedades{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    main .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+    main .container img{
+        height: auto;
+    }
+    main .container .proposito{
+        height: auto;
+    }
+
+}
+
+@media (max-width: 748px){
+    main .place .card{
+        margin: 20px;
+    }
+
+    main .place .card img{
+        height: auto;
+    }
+}
+
+@media (max-width: 550px){
+    main aside .mision{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 627px){
+    footer .informacion{
+        text-align: center;
+    }
+    footer .informacion .botones{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
