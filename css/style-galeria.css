@@ -1,5 +1,4 @@
 *{
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,6 +28,7 @@ header{
 }
 header .logo img{
     width: 90px;
+
 }
 
 header .titulo h1{
@@ -48,22 +48,21 @@ header .calls-header nav a{
 
 }
 header .calls-header nav a:hover{
-
     color: rgba(0, 255, 149);
     text-shadow: 2px 2px 4px black;
 
 }
 
 /* -------------------------------------------- */
-
+    /* galeria */
 main .galeria .imagenes{
     display: flex;
     margin: 30px; 
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-}
 
+}
 main .galeria .imagenes img{
     margin: 15px;
     flex-wrap: wrap;
@@ -72,8 +71,8 @@ main .galeria .imagenes img{
     border-style:ridge;
     box-shadow: 0px 0px 10px greenyellow;
     border-radius: 22px;
-}
 
+}
 main .galeria .imagenes img:hover{
     border-color: greenyellow;
     border-width: 10px;
@@ -152,13 +151,23 @@ footer .datos-admin{
 /* -------------------------------------------- */
 
 @media (max-width: 404px){
-
     header .titulo h1{
         font-size: 35px;
-
     }
-
 }
+
+@media (max-width: 437px){
+    header .calls-header nav a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 387px){
+    header .calls-header nav a{
+        font-size: 13px;
+    }
+}
+
 
 @media (max-width: 627px){
     footer .informacion{
@@ -168,5 +177,4 @@ footer .datos-admin{
         display: flex;
         flex-direction: row;
     }
-
 }

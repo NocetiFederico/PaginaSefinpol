@@ -1,5 +1,4 @@
 *{
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -48,7 +47,6 @@ header .calls-header nav a{
 
 }
 header .calls-header nav a:hover{
-
     color: rgba(0, 255, 149);
     text-shadow: 2px 2px 4px black;
 
@@ -56,7 +54,7 @@ header .calls-header nav a:hover{
 
 /* -------------------------------------------- */
 
-
+    /* cards con background mundo: valores - call central - novedades  */
 main .cards{
     background-image: url(../media/0014456529\ \(3\).jpg);
     width: 100%;
@@ -119,15 +117,8 @@ main .cards .novedades{
 
 /* -------------------------------------------- */
 
-main .calls .call-contacto{
-    background-color: #000000;
-
-}
-
-/* -------------------------------------------- */
-
+    /* carrusel */
 main .container{
-
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: #f2f2f2;
@@ -143,37 +134,32 @@ main .container{
     align-items: center;
     text-align: center;
 
-
 }
 main .container .carrusel-item{
-
     grid-area: carrusel-item;
 
 }
 main .container .proposito{
-
     grid-area: proposito;
 
 }
 main .container img{
-
     height: 800px;
     width: 800px;
     border-radius: 22px;
 
 }
 main .container .proposito{
-
     font-size: larger;
 
 }
 main .container .proposito h2{
-
     text-shadow: 1px 1px 5px rgb(104, 104, 104);
 
 }
 
 /* -------------------------------------------- */
+    /* texto */
 main aside .mision{
     color: white;
     width: 60%;
@@ -189,7 +175,7 @@ main aside .mision p{
     text-align: center;
 
 }
-
+    /* imagen con texto y boton */
 main .place{
     width: 100%;
     display: flex;
@@ -197,18 +183,15 @@ main .place{
     justify-content: center;
 
 }
-
 main .place .card{
     margin: 100px;
     width: 600px;
 
 }
-
 main .place .card img{
     height: 420px;
 
 }
-
 
 /* -------------------------------------------- */
 
@@ -252,6 +235,7 @@ footer .informacion{
 footer .informacion .botones{
     display: flex;
     flex-direction: column;
+
 }
 
 footer .informacion p{
@@ -282,7 +266,6 @@ footer .datos-admin{
 
 
 @keyframes hover-animation {
-    
     0%{
         box-shadow: 0px 0px 47px #000000 ;
         filter: blur(0px);
@@ -300,12 +283,9 @@ footer .datos-admin{
 }
 
 @media (max-width: 404px){
-
     header .titulo h1{
         font-size: 35px;
-
     }
-
 }
 
 @media (max-width: 437px){
@@ -326,11 +306,9 @@ footer .datos-admin{
         flex-direction: column;
         background-position: center;
     }
-
 }
 
 @media (max-width: 430px){
-
     main .cards .valores{
         width: 80%;
     }
@@ -341,16 +319,13 @@ footer .datos-admin{
     main .cards .novedades{
         width: 80%;
     }
-
 }
 
 @media (max-width: 1000px){
-
     main .container{
         height: auto;
         display: flex;
         flex-direction: column;
-
     }
     main .container img{
         height: auto;
@@ -358,14 +333,12 @@ footer .datos-admin{
     main .container .proposito{
         height: auto;
     }
-
 }
 
 @media (max-width: 748px){
     main .place .card{
         margin: 20px;
     }
-
     main .place .card img{
         height: auto;
     }
@@ -375,7 +348,6 @@ footer .datos-admin{
     main aside .mision{
         width: 100%;
     }
-
 }
 
 @media (max-width: 627px){
@@ -386,6 +358,5 @@ footer .datos-admin{
         display: flex;
         flex-direction: row;
     }
-
 }
 

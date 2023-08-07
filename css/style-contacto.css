@@ -1,12 +1,10 @@
 *{
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 body{
-
     background-image: url(../media/fondo-formulario.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +32,7 @@ header{
 }
 header .logo img{
     width: 90px;
+
 }
 
 header .titulo h1{
@@ -53,16 +52,14 @@ header .calls-header nav a{
 
 }
 header .calls-header nav a:hover{
-
     color: rgba(0, 255, 149);
     text-shadow: 2px 2px 4px black;
 
 }
 
 /* -------------------------------------------- */
-
+    /* formulario */
 main form{
-
     width: 400px;
     background-color: transparent;
     backdrop-filter: blur(22px);
@@ -76,16 +73,12 @@ main form{
     box-shadow: 0px 0px 45px;
 
 }
-
-main form > h4{
-
+main form h4{
     font-size: 28px;
     margin-bottom: 20px;
 
 }
-
-main .controls{
-
+main form .controls{
     width: 100%;
     background-color: rgba(0, 255, 21, 0.322);
     padding: 10px;
@@ -96,31 +89,23 @@ main .controls{
     font-size: 18px;
 
 }
-
-main form > p{
-
+main form p{
     height: 40px;
     text-align: center;
     font-size: 18px;
 
 }
-
-main form > a{
-
+main form a{
     color: white;
     text-decoration: none;
 
 }
-
-form > a:hover{
-
+main form a:hover{
     color: white;
     text-decoration: underline;
 
 }
-
-main form > .botons{
-
+main form .botons{
     width: 100%;
     background-color: rgb(0, 136, 255);
     border: none;
@@ -129,13 +114,11 @@ main form > .botons{
     font-size: 16px;
 
 }
-
-main form > .botons:hover{
-
+main form .botons:hover{
     box-shadow: 0px 0px 25px rgb(0, 136, 255);
 
 }
-
+    /* mapa */
 main .ubicacion h2{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -144,7 +127,6 @@ main .ubicacion h2{
     margin-bottom: 30px;
     box-shadow: 0px 0px 45px rgb(255, 255, 255);
 }
-
 main .ubicacion .ubi{
     display: flex;
     justify-content: center;
@@ -174,19 +156,16 @@ footer .logo{
     margin: 5px;
     
 }
-
 footer .logo h3{
     color: #f2f2f2;
     font-family: 'Dancing Script', cursive;
     font-size: 17px;
 
 }
-
 footer .logo p{
     color: #f2f2f2;
 
 }
-
 footer .informacion{
     color: #f2f2f2;
     margin: 5px;
@@ -198,20 +177,18 @@ footer .informacion .botones{
     display: flex;
     flex-direction: column;
 }
-
 footer .informacion p{
     font-size: larger;
 
 }
-
-.informacion .boton-fin{
+footer .informacion .boton-fin{
     color: white;
     border-radius: 10px;
     margin: 1px;
     text-decoration: none;
 
 }
-.informacion .boton-fin:hover{
+footer .informacion .boton-fin:hover{
     text-decoration: none;
     color: greenyellow;
 
@@ -225,13 +202,23 @@ footer .datos-admin{
 /* -------------------------------------------- */
 /* -------------------------------------------- */
 @media (max-width: 404px){
-
     header .titulo h1{
         font-size: 35px;
-
     }
-
 }
+
+@media (max-width: 437px){
+    header .calls-header nav a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 387px){
+    header .calls-header nav a{
+        font-size: 13px;
+    }
+}
+
 
 @media (max-width: 440px){
     form{
@@ -247,5 +234,4 @@ footer .datos-admin{
         display: flex;
         flex-direction: row;
     }
-
 }
