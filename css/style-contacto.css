@@ -112,10 +112,12 @@ main form .botons{
     padding: 12px;
     color: white;
     font-size: 16px;
+    transition: 0.5s;
 
 }
 main form .botons:hover{
     box-shadow: 0px 0px 25px rgb(0, 136, 255);
+    transition: 0.5s;
 
 }
     /* mapa */
